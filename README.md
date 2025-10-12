@@ -1,7 +1,9 @@
 # Assets Manager – Node.js + PostgreSQL + HTML/Bootstrap
 
 
-Aplicación full‑stack para gestionar un listado de assets (laptops, celulares, monitores, etc.). Incluye API REST con Node.js/Express y persistencia en PostgreSQL. Frontend simple con HTML + Bootstrap usando `fetch()`.
+Aplicación full‑stack para gestionar un listado de assets (laptops, celulares, monitores, etc.). 
+Incluye API REST con Node.js/Express y persistencia en PostgreSQL. 
+Frontend HTML + Bootstrap usando `fetch()`.
 
 
 ## Requisitos
@@ -12,7 +14,7 @@ Aplicación full‑stack para gestionar un listado de assets (laptops, celulares
 ## Instalación
 ```bash
 # 1) Clonar
-git clone <REPO_URL>
+git clone https://github.com/carlosGZ81/assets-manager.git
 cd assets-manager
 
 
@@ -22,11 +24,12 @@ npm install
 
 # 3) Variables de entorno
 cp .env.example .env
-# editar .env con tus credenciales de PostgreSQL
+# editar .env con credenciales apropiadas de PostgreSQL
 
 
 # 4) Base de datos
-# crear DB (si no existe) y ejecutar schema.sql - pgAdmin 4
+# crear DB (si no existe) y ejecutar schema.sql - pgAdmin4
+# el proyecto contiene los scripts
 createdb assets_db # o por GUI
 psql -d assets_db -f schema.sql
 
