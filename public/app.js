@@ -131,5 +131,4 @@ tableBody.addEventListener('click', async (e) => {
 });
 
 
-// Init
 loadAssets();

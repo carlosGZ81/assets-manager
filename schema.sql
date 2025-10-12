@@ -11,5 +11,6 @@ CREATE TABLE IF NOT EXISTS assets(
 -- Info inicial
 INSERT INTO assets(name, type, owner) VALUES
     ('MacBook Pro 14"', 'Laptop', 'Carlos'),
+    ('Lenovo ThinkPad X1', 'Laptop', 'Ana'),
     ('iPhone 13', 'Celular', 'Mariana'),
-    ('Dell Ultra 27', 'Monitor', 'Equipo Ventas'); 
+    ('Dell Ultra 27', 'Monitor', 'Ventas'); 
