@@ -8,7 +8,7 @@ Frontend HTML + Bootstrap usando `fetch()`.
 
 ## Requisitos
 - Node.js 18+
-- PostgreSQL 13+
+- PostgreSQL 18+
 
 
 ## Instalación
