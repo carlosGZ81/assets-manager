@@ -7,14 +7,6 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Run nodemon",
-      "runtimeExecutable": "nodemon",
-      "cwd": "${workspaceFolder}",
-      "args": []
-    },
-    {
-      "type": "node",
-      "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\controllers\\assets.controller.js"
